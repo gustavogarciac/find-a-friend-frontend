@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .hero-title {
+    @apply text-[4.75rem] text-white font-bold font-nunito;
+  }
+  .h1-bold {
+    @apply text-[3.5rem] text-primary-blue font-bold font-nunito;
+  }
+  .h2-bold {
+    @apply text-[1.875rem] text-primary-blue font-bold font-nunito;
+  }
+  .base-bold {
+    @apply text-[1.5rem] text-white font-bold font-nunito leading-relaxed;
+  }
+  .body-text {
+    @apply text-[1.125rem] text-primary-blue font-normal leading-relaxed font-nunito;
+  }
+}
